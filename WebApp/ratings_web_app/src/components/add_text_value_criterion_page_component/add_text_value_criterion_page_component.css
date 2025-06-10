@@ -1,0 +1,143 @@
+#atvcp-add-criterion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#atvcp-welcome-panel{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#atvcp-add-criterion-card{
+    min-width: 500px;
+    min-height: 600px;
+}
+
+#atvcp-add-criterion-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.atvcp-add-criterion-card-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.atvcp-group-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.atvcp-group-horizontal-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 500px;
+}
+
+.atvcp-group-horizontal-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    min-width: 500px;
+}
+
+.atvcp-group-horizontal-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.atvcp-axis-indicator-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.atvcp-axis-indicator-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 250px;
+}
+
+.atvcp-axis-indicator-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    min-width: 250px;
+}
+
+.atvcp-error-background{
+    color: red;
+}
+
+.atvcp-text-value-int-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 330px;    
+}
+
+.atvcp-text-value-int-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 330px;    
+}
+
+.atvcp-text-value-int-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 330px;    
+}
+
+.atvcp-add-remove-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.atvcp-add-remove-button-panel-button{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#atvcp-text-value-panel{
+    max-height: 180px;
+    overflow-y: auto; 
+}
+
+#atvcp-text-value-ints-error-message-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,38 @@
+#rp-register-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#rp-welcome-panel{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rp-register-card{
+    min-width: 500px;
+}
+
+#rp-register-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rp-register-button{
+    min-width: 100px;
+}
+
+#rp-register-notification-panel{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

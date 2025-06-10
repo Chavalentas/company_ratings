@@ -1,0 +1,93 @@
+#rcp-rate-criterion-card{
+    min-width: 500px;
+}
+
+#rncc-rate-criterion-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rncc-rate-criterion-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rncc-rate-criterion-card-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+#rncc-rate-criterion-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rncc-number-range-criterion-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rncc-number-range-criterion-container-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.rncc-smiley-number-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rncc-numeric-criterion-rating-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#rncc-numeric-criterion-rating-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+
+}
+
+#rncc-numeric-slider{
+    min-width: 400px;
+}
+
+.rncc-numeric-axis-indicator-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rncc-numeric-axis-indicator-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 200px;
+}
+
+.rncc-numeric-axis-indicator-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    min-width: 200px;
+}

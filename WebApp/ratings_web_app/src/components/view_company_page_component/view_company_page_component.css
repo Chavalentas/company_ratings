@@ -1,0 +1,63 @@
+#vcpp-view-company-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#vcpp-welcome-panel{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vcpp-view-company-card{
+    min-width: 500px;
+}
+
+#vcpp-view-company-card-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vcpp-view-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vcpp-identifier-value-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcpp-identifier-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 250px;
+}
+
+.vcpp-value-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 250px;
+}
+
+.vcpp-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

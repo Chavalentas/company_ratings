@@ -1,0 +1,9 @@
+{
+    "minTextValueAmount": 2,
+    "maxTextValueAmount": 10,
+    "numericSmallestPossible": 1,
+    "numericLargestPossible": 100,
+    "floatSmallestPossible": 1,
+    "floatLargestPossible": 100,
+    "floatStepSize": 0.1
+}

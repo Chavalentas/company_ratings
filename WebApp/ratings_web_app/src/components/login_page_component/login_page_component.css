@@ -1,0 +1,38 @@
+#lp-login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#lp-welcome-panel{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lp-login-card{
+    min-width: 500px;
+}
+
+#lp-login-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#lp-login-button{
+    min-width: 100px;
+}
+
+#lp-register-notification-panel{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

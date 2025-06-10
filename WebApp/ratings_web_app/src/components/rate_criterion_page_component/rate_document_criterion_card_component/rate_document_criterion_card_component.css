@@ -1,0 +1,92 @@
+#rdcc-rate-criterion-card{
+    min-width: 500px;
+}
+
+#rdcc-rate-criterion-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rdcc-rate-criterion-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdcc-rate-criterion-card-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+#rdcc-rate-criterion-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdcc-rate-criterion-card-body-member{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#rdcc-upload-file-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdcc-upload-file-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;     
+}
+
+#rdcc-rating-path-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rdcc-rating-indicator-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    min-width: 250px;
+}
+
+#rdcc-path-value-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    min-width: 250px;
+}
+
+#rdcc-error-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+#rdcc-loading-spinner{
+    margin-top: 5px;
+}
+
+.rdcc-loading-spinner-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

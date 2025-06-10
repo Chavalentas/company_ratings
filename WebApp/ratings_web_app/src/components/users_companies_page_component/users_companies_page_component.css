@@ -1,0 +1,61 @@
+#uscp-companies-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#uscp-welcome-panel{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#uscp-companies-list{
+    max-height: 250px;
+    overflow-y: auto; 
+}
+
+.uscp-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uscp-item-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#uscp-user-companies-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.uscp-user-companies-button-panel-button{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.uscp-item-member-name-panel{
+    display: flex;
+    min-width: 500px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.uscp-item-member-button-panel {
+    display: flex;
+    min-width: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,100 @@
+#hp-welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#hp-welcome-panel{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hp-search-bar{
+    min-width: 500px;
+}
+
+#hp-search-bar-control{
+    height: 40px;
+}
+
+#hp-search-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.hp-search-bar-container-member{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#hp-search-button{
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 20px;
+}
+
+#hp-companies-list{
+    max-height: 250px;
+    overflow-y: auto; 
+}
+
+.hp-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-item-member-name-panel{
+    display: flex;
+    min-width: 500px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.hp-item-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hp-company-list-item{
+    min-width: 500px;
+    height: 30px;
+}
+
+#hp-loading-spinner{
+    margin-top: 5px;
+}
+
+#hp-home-page-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.hp-home-page-button-panel-button{
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: 100px;
+    min-height: 30px;
+}
+
+#hp-error-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}

@@ -1,0 +1,52 @@
+#rccc-rate-criterion-card{
+    min-width: 500px;
+}
+
+#rccc-rate-criterion-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rccc-rate-criterion-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rccc-rate-criterion-card-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+#rccc-rate-criterion-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rccc-comment-criterion-rating-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#rccc-comment-criterion-rating-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+}
+
+#rccc-comment-text-area{
+    width: 400px;
+    max-width: 400px;
+    height: 300px;
+    max-height: 300px;
+}

@@ -1,0 +1,4 @@
+{
+    "ratingsToFetchAmount": 10,
+    "documentRatingMaxSizeInKb": 50
+}

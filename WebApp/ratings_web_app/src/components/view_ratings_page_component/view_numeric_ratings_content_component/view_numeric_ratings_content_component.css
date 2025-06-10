@@ -1,0 +1,88 @@
+#vnrc-main-container{
+    min-width: 500px;
+}
+
+#vnrc-main-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#vnrc-main-container-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vnrc-number-range-criterion-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vnrc-number-range-criterion-container-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.vnrc-main-container-body-member{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.vnrc-smiley-number-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#vnrc-numeric-criterion-rating-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#vnrc-numeric-criterion-rating-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+
+}
+
+#vnrc-main-container-button-panel{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vnrc-main-container-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+#vnrc-ratings-list{
+    max-height: 300px;
+    overflow-y: auto; 
+}
+
+#vnrc-ratings-list-header{
+    position: sticky;
+    top: 0;
+}
+
+.vcrc-delete-button{
+    min-width: 100px;
+    height: 30px;
+}

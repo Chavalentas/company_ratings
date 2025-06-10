@@ -1,0 +1,63 @@
+#pp-profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#pp-welcome-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pp-profile-card{
+    min-width: 500px;
+}
+
+#pp-update-profile-button-panel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#pp-update-password-button-panel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#pp-delete-profile-button-panel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-update-profile-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pp-update-password-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pp-delete-profile-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

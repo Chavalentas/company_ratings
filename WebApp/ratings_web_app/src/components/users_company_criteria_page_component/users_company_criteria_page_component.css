@@ -1,0 +1,111 @@
+#uccp-users-company-criteria-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#uccp-criteria-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    max-height: 570px;
+    overflow-y: auto; 
+}
+
+.uccp-criteria-container-column{
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#uccp-welcome-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.uccp-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uccp-item-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.uccp-item-member-name-panel{
+    display: flex;
+    min-width: 250px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.uccp-item-member-button-panel {
+    display: flex;
+    min-width: 250px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uccp-criteria-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.uccp-criteria-button-panel-button{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.uccp-overall-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.uccp-overall-button-panel-button{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.uccp-criteria-list{
+    max-height: 130px;
+    overflow-y: auto; 
+}
+
+.uccp-criteria-card{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height:280px;
+    width: 700px;
+}
+
+.uccp-no-criteria-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uccp-page-heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

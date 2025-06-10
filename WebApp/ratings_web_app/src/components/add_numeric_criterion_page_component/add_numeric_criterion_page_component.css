@@ -1,0 +1,87 @@
+#ancp-add-criterion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#ancp-welcome-panel{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ancp-add-criterion-card{
+    min-width: 500px;
+}
+
+#ancp-add-criterion-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancp-add-criterion-card-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ancp-group-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancp-group-horizontal-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 500px;
+}
+
+.ancp-group-horizontal-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    min-width: 500px;
+}
+
+.ancp-group-horizontal-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ancp-axis-indicator-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancp-axis-indicator-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 250px;
+}
+
+.ancp-axis-indicator-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    min-width: 250px;
+}
+
+.ancp-error-background{
+    color: red;
+}

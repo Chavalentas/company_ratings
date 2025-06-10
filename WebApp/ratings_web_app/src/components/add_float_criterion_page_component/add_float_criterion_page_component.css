@@ -1,0 +1,92 @@
+#afcp-add-criterion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#afcp-welcome-panel{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#afcp-add-company-card{
+    min-width: 500px;
+}
+
+#afcp-add-criterion-card-button-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.afcp-add-criterion-card-button-panel-button{
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.afcp-panel-button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.afcp-group-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.afcp-group-horizontal-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 500px;
+}
+
+.afcp-group-horizontal-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    min-width: 500px;
+}
+
+.afcp-group-horizontal-member{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.afcp-axis-indicator-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.afcp-axis-indicator-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    min-width: 250px;
+}
+
+.afcp-axis-indicator-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    min-width: 250px;
+}
+
+.afcp-error-background{
+    color: red;
+}
